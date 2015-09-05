@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<style type="text/css"> 
+			.change_word{
+				font-size: 40;
+				letter-spacing: -7
+			}
+		</style>
+		
+	</head>
+	<body>
+		<p>
+			<!--Texto 1-->
+			<span class="change_word">T</span>exto 1
+			
+		</p>
+		<p>
+			Texto 2
+		</p>
+		<button class="button">Cambiar</button>
+	
+	</body>
+	<script src="../htr.js"></script>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+			console.log("Starting test...");
+			
+			var objeto_htr = htr(document.getElementsByTagName("*"));
+			//objeto_htr.replaceParagraph("<html><head></head><body><p>Pelotazos dorados</p><p>Texto 4</p></body></html>");
+			
+
+			console.log("Test finished");
+	});
+	</script>
+	
+
+
+</html>
